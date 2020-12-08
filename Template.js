@@ -2,7 +2,7 @@ const Database = require("@replit/database");
 const db = new Database();
 const botdevs = ["423258218035150849", "314166178144583682"];
 const discord = require("discord.js");
-// Put this file
+// Put this file in `commands/type/file.js`
 exports.info = {
   name: "command",
   alts: [],
